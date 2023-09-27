@@ -1,75 +1,53 @@
-local L = LibStub("AceLocale-3.0"):NewLocale("BGHistorian", "deDE", true)
+local L = LibStub("AceLocale-3.0"):NewLocale("BGHistorian", "deDE")
+if not L then return end 
 
---[[Translation missing --]]
 L["%F %T"] = "%F %T"
---[[Translation missing --]]
 L["%ih %im"] = "%ih %im"
---[[Translation missing --]]
 L["%im %is"] = "%im %is"
---[[Translation missing --]]
 L["%is"] = "%is"
+L["All Battlegrounds"] = "Alle Schlachtfelder"
 L["Alterac Valley"] = "Alteractal"
 L["Arathi Basin"] = "Arathibecken"
---[[Translation missing --]]
-L["Avg"] = "Avg"
---[[Translation missing --]]
-L["Battleground"] = "Battleground"
---[[Translation missing --]]
-L["Battlegrounds records can impact memory usage (0 means unlimited)"] = "Battlegrounds records can impact memory usage (0 means unlimited)"
---[[Translation missing --]]
-L["Cleanup and optimize collected data"] = "Cleanup and optimize collected data"
---[[Translation missing --]]
-L["Database reset"] = "Database reset"
---[[Translation missing --]]
-L["Database Settings"] = "Database Settings"
---[[Translation missing --]]
-L["Date"] = "Date"
---[[Translation missing --]]
-L["Deaths"] = "Deaths"
---[[Translation missing --]]
-L["Delete all collected data"] = "Delete all collected data"
---[[Translation missing --]]
-L["Drag"] = "Drag"
---[[Translation missing --]]
-L["Duration"] = "Duration"
---[[Translation missing --]]
-L["HK"] = "HK"
---[[Translation missing --]]
-L["Honor"] = "Honor"
---[[Translation missing --]]
-L["Honorable Kills"] = "Honorable Kills"
---[[Translation missing --]]
-L["KB"] = "KB"
---[[Translation missing --]]
-L["Killing Blows"] = "Killing Blows"
---[[Translation missing --]]
-L["Left Click"] = "Left Click"
---[[Translation missing --]]
-L["Maximum history records"] = "Maximum history records"
---[[Translation missing --]]
-L["Minimap Button Settings"] = "Minimap Button Settings"
---[[Translation missing --]]
-L["Optimize database"] = "Optimize database"
---[[Translation missing --]]
-L["Options"] = "Options"
---[[Translation missing --]]
-L["Purge database"] = "Purge database"
---[[Translation missing --]]
-L["Recorded %i battlegrounds"] = "Recorded %i battlegrounds"
---[[Translation missing --]]
-L["Right Click"] = "Right Click"
---[[Translation missing --]]
-L["Show minimap button"] = "Show minimap button"
---[[Translation missing --]]
-L["Sum"] = "Sum"
---[[Translation missing --]]
-L["to move this button"] = "to move this button"
---[[Translation missing --]]
-L["to open options"] = "to open options"
---[[Translation missing --]]
-L["to open the main window"] = "to open the main window"
-L["Warsong Gulch"] = "Warsongschlucht"
---[[Translation missing --]]
-L["Winner"] = "Winner"
---[[Translation missing --]]
-L["Winrate"] = "Winrate"
+L["Avg"] = "Durchschn."
+L["Battleground"] = "Schlachtfeld"
+L["Battlegrounds records can impact memory usage (0 means unlimited)"] = "Schlachtfeldaufzeichnungen können sich auf die Arbeitsspeichernutzung auswirken (0 bedeutet unbegrenzt)"
+L["Cleanup and optimize collected data"] = "Bereinigt und optimiert die gesammelten Daten "
+L["Damage Done"] = "Verursachter Schaden"
+L["Damage"] = "Schaden"
+L["Database Settings"] = "Datenbank Einstellungen"
+L["Database optimized"] = "Datenbank optimiert"
+L["Database reset"] = "Datenbank zurückgesetzt"
+L["Date"] = "Datum"
+L["Deaths"] = "Tode"
+L["Delete all collected data"] = "löscht alle gesammelten Daten"
+L["Drag"] = "Ziehen "
+L["Duration"] = "Dauer"
+L["Eye of the Storm"] = "Auge des Sturms"
+L["HK"] = "ES"
+L["Healing Done"] = "Gewirkte Heilung"
+L["Healing"] = "Heilung"
+L["Honor"] = "Ehre"
+L["Honorable Kills"] = "Ehrenhafte Siege"
+L["Isle of Conquest"] = "Insel der Eroberung"
+L["KB"] = "TS"
+L["Killing Blows"] = "Todesstöße"
+L["Left Click"] = "Linksklick"
+L["Maximum history records"] = "Maximale Schlachtfeldaufzeichnungen "
+L["Minimap Button Settings"] = "Minimap Button Einstellung "
+L["Opens or closes the main window"] = "Öffnet oder schließt das Hauptfenster"
+L["Optimize database"] = "Datenbank optimieren "
+L["Options"] = "Optionen"
+L["Purge database"] = "Datenbank löschen"
+L["Recorded %i battlegrounds"] = "%i Schlachtfelder aufgezeichnet"
+L["Right Click"] = "Rechtsklick"
+L["Show minimap button"] = "Minimap Button anzeigen"
+L["Strand of the Ancients"] = "Strand der Uralten"
+L["Sum"] = "Summe"
+L["Toggle"] = "Toggle"
+L["Warsong Gulch"] = "Kriegshymnenschlucht"
+L["Winner"] = "Gewinner"
+L["Winrate"] = "Gewinnrate"
+L["Wintergrasp"] = "Tausendwintersee"
+L["to move this button"] = "um diesen Button zu verschieben "
+L["to open options"] = "um Optionen zu öffnen"
+L["to open the main window"] = "um das Hauptfenster zu öffnen "
